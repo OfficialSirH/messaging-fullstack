@@ -1,0 +1,21 @@
+[package]
+name = "messaging-backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+actix = "0.13.0"
+actix-web = "4.3.1"
+actix-rt = "2.8.0"
+actix-web-actors = "4.2.0"
+actix-cors = "0.6"
+bcrypt = "0.15.0"
+base64 = "0.21.0"
+serde = { version = "1", features = ["derive"] }
+rand = "0.8"
+log = "0.4"
+dotenv = "0.15"
+env_logger = "0.10"
